@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
 class Hello extends Component {
- render(){
-   return <h1>Hello "Your Name"</h1>
+ render(props){
+   return <h1>Hello "Your Name" {this.props.name}</h1>
  }
 } 
 export default Hello;
