@@ -1,8 +1,8 @@
-import React from "react";
+import React, {Component} from 'react';
 
-
-const Hello = () =>{
-  return <h1>Hello "Your Name"</h1>
-}
-
-export default Hello; 
+class Hello extends Component {
+ render(){
+   return <h1>Hello "Your Name"</h1>
+ }
+} 
+export default Hello;
